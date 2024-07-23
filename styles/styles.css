@@ -1,0 +1,112 @@
+body {
+    background-color: #A1D2CE;
+    color: #0A2E36;
+    font-family: Poppins, sans-serif;
+    padding-bottom: 60px;
+}
+
+table {
+    border-collapse: separate; 
+    border-spacing: 0; 
+    border: 1px solid #0A2E36; 
+    border-radius: 10px; 
+}
+
+table td {
+    border: 1px solid #0A2E36;
+    padding: 10px 20px;
+}
+
+td.left {
+    font-weight: bold;
+}
+
+tr.even {
+    background-color: #b9d2d0;
+}
+
+tr.odd {
+    background-color: #aacfcd;
+}
+
+.top-left {
+    border-top-left-radius: 10px;
+}
+
+.top-right {
+    border-top-right-radius: 10px;
+}
+
+.bottom-left {
+    border-bottom-left-radius: 10px;
+}
+
+.bottom-right {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    width: 500px;
+    margin: 10px auto 0;
+    color: #ffffff;
+    border: 3px solid #184844;
+    background-color: #184844;
+    background-image: url("../images/planks.jpg");
+    background-size: contain;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    color: #373F51;
+    font-style: italic;
+}
+
+h2, h3 {
+    text-transform: capitalize;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+nav ul {
+    width: fit-content;
+    margin: 20px auto;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+li:link {
+    color: #084743;
+}
+
+li:visited {
+    color: #3d0330;
+}
+
+li:hover {
+    color: #900071
+}
+
+li:active {
+    color: #2e0f54;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #e9f1f0;
+    padding: 10px;
+}
