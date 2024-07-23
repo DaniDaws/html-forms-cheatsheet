@@ -10,6 +10,8 @@ table {
     border-spacing: 0; 
     border: 1px solid #0A2E36; 
     border-radius: 10px; 
+    width: 80%;
+    margin-bottom: 90px;
 }
 
 table td {
@@ -72,6 +74,7 @@ h2, h3 {
 
 h3 {
     text-decoration: underline;
+    text-indent: 50px;
 }
 
 nav ul {
@@ -84,22 +87,23 @@ nav ul li {
     margin: 20px;
     font-style: italic;
     text-transform: capitalize;
+    font-weight: 600;
 }
 
-li:link {
-    color: #084743;
+ul a:link {
+    color: #105f4c;
 }
 
-li:visited {
+ul a:visited {
     color: #3d0330;
 }
 
-li:hover {
-    color: #900071
+ul a:hover {
+    color: #b5008e
 }
 
-li:active {
-    color: #2e0f54;
+ul a:active {
+    color: #47009e;
 }
 
 footer {
@@ -109,4 +113,14 @@ footer {
     text-align: center;
     background-color: #e9f1f0;
     padding: 10px;
+}
+
+footer a {
+    color:#105f4c;
+    font-size: medium;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color:#378472;
 }
