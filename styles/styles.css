@@ -11,7 +11,7 @@ table {
     border: 1px solid #0A2E36; 
     border-radius: 10px; 
     width: 80%;
-    margin-bottom: 90px;
+    margin: 0 auto 90px;
 }
 
 table td {
